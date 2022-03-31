@@ -1,0 +1,29 @@
+body {
+    background-color: #111a2f;
+    color: #7bc3a1;
+    font-family: monaco;
+
+}
+header {
+    padding: 5x;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+nav a {
+    text-decoration: none;
+}
+header nav ol {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 25px;
+}
+.hero p {
+    font-family: helvetica, sans-serif;
+    font-size: 50px;
+    line-height: .3;
+    font-weight: bold;
+    color: #fdd1c1;
+}
