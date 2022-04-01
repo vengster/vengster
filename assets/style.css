@@ -1,11 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     background-color: #111a2f;
     color: #7bc3a1;
     font-family: monaco;
-
 }
 header {
-    padding: 5x;
+    padding: 5px 5px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -19,11 +23,18 @@ header nav ol {
     justify-content: space-between;
     align-items: center;
     padding: 10px 25px;
+    list-style: decimal-leading-zero;
+}
+header nav ol li {
+    padding: 5px;
+}
+header nav ol li a {
+    padding: 50px;
 }
 .hero p {
     font-family: helvetica, sans-serif;
     font-size: 50px;
-    line-height: .3;
+    line-height: 1.3;
     font-weight: bold;
     color: #fdd1c1;
 }
