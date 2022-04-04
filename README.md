@@ -1,5 +1,20 @@
-### Hi there 👋
-<h1 align="center"><My Portfolio></h1>
+# Veng Lee's Portfolio
+
+## Purpose
+A website that displays my past and current projects.
+
+## Built With
+* HTML
+* CSS
+
+## Website
+https://vengster.github.io/vengster/
+
+## Contribution
+Made with ❤️ by [Veng]
+
+
+
 <!--
 **vengster/vengster** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
