@@ -67,17 +67,18 @@ header nav ul li a:hover {
     font-size: 25px;
     padding: 20px;
     margin: 10px 30px 20px 50px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
     width: 80%;
-    align-items: center;
+    text-align: left;
+    overflow: auto;
 }
 .about img {
     border-radius: 15px;
-    width: 20%; 
+    width: 20%;
+    float: right;
 }
-
+.about p {
+    margin: 0 50px 0px 10px;
+}
 
   
   
