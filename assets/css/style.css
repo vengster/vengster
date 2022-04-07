@@ -143,3 +143,21 @@ footer {
     margin: 40px 40px;
     text-align: center;
 }
+
+/* Media query starts here*/
+@media screen and (max-width: 980px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+    }
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+    .about p {
+        text-align: center;
+    }
+    .about img {
+    
+    }
+}
