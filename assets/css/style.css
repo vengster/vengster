@@ -149,8 +149,9 @@ footer {
 /* Media query starts here*/
 @media screen and (max-width: 980px) {
     header {
-        padding-bottom: 0;
-        margin-bottom: 100px;
+        width: 100%;
+        padding: 0;
+        margin: 0;
         justify-content: center;
     }
     header h1 {
@@ -159,13 +160,22 @@ footer {
     }
     .about p {
         text-align: center;
+        font-size: 18px;
     }
     .about {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-evenly;
+        justify-content: center;
+        width: 60%;
+        margin: 0 auto;
+
     }
     .about img {
-        margin-bottom: 20px;
+        margin: 20px auto;
+        width: 300px;
+        height: auto;
+    }
+    .projects {
+        margin-top: 30px;
     }    
 }
