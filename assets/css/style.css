@@ -18,6 +18,7 @@ header {
     top: 0;
     z-index: 9999;
     background-color: #111a2f;
+    font-size: 20px;
 }
 nav a {
     text-decoration: none;
@@ -67,7 +68,7 @@ header nav ul li a:hover {
     font-size: 25px;
     padding: 20px;
     margin: 10px 30px 100px 50px;
-    width: 80%;
+    width: 100%;
     text-align: left;
     overflow: auto;
 }
@@ -76,6 +77,7 @@ header nav ul li a:hover {
     width: 200px;
     height: 285px;
     float: right;
+    margin-right: 100px;
 }
 .about p {
     margin: 0 50px 0px 10px;
@@ -148,6 +150,7 @@ footer {
 @media screen and (max-width: 980px) {
     header {
         padding-bottom: 0;
+        margin-bottom: 100px;
         justify-content: center;
     }
     header h1 {
@@ -157,7 +160,12 @@ footer {
     .about p {
         text-align: center;
     }
-    .about img {
-    
+    .about {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
     }
+    .about img {
+        margin-bottom: 20px;
+    }    
 }
